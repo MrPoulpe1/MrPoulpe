@@ -1,14 +1,107 @@
+  @font-face {
+    font-family: 'Indiana-Jonas-48ip';
+    src: url('../fonts/Indiana-Jonas-48ip/Indiana-Jonas-48ip.eot?') format('eot'),
+    url('../fonts/Indiana-Jonas-48ip/Indiana-Jonas-48ip.otf') format('truetype'),
+    url('../fonts/Indiana-Jonas-48ip/Indiana-Jonas-48ip.woff') format('woff'),
+    url('../fonts/Indiana-Jonas-48ip/Indiana-Jonas-48ip.svg#Indiana-Jonas-48ip') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body, html {
     height: 100vh;
   }
 
-  .bg {
-    background-image: url("../img/Under_Construction.png");
-    height: 100%;
-    background-position: center;
+  @media screen and (min-width: 821px) {
+    .icon-text {
+      font-size:1.6vw;
+    }
+
+    .font1 {
+      font-size:3vw;
+      color: #cd1626;
+      font-family:Indiana-Jonas-48ip;
+      font-weight: normal;
+    }
+
+    .font2 {
+      font-size:1vw;
+      color: grey;
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .font3 {
+      font-size:1.3vw;
+      color: grey;
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .footer {
+      background-image: url("../img/Under_Construction.png");
+      height: 47%;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .icon-text {
+      font-size:4vw;
+    }
+
+    .font1 {
+      font-size:10vw;
+      color: #cd1626;
+      font-family:Indiana-Jonas-48ip;
+      font-weight: normal;
+    }
+
+    .font2 {
+      font-size:3vw;
+      color: grey;
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .font3 {
+      font-size:3vw;
+      color: grey;
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .footer {
+      background-image: url("../img/Under_Construction2.png");
+      height: 50%;
+    }
+  }
+
+  .footer {
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  .p {
+    line-height: 0.3em;
+  }
+
+  .f {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   .red {
@@ -16,24 +109,19 @@
   }
 
   .icon-text {
-    font-size:18px;
-    font-weight:500;
     text-align: center;
     padding: 0.6em;
   }
 
   .dot {
-    height: 18px;
-    width: 18px;
+    height: auto;
+    width: 25px;
     display: inline-block;
     background-color: #d2031f;
     color: #ffff;
     border-radius: 50%;
   }
 
-  .block {
-    position: absolute;
-    bottom: 45%;
-    right: 47%;
-    padding-top: 50px;
+  .font{
+    font-family:Indiana-Jonas-48ip;
   }
