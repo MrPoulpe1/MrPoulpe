@@ -116,12 +116,27 @@
   .dot {
     height: auto;
     width: 25px;
+    height: 25px;
     display: inline-block;
     background-color: #d2031f;
     color: #ffff;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-links > a {
+    text-decoration: none;
   }
 
   .font{
     font-family:Indiana-Jonas-48ip;
   }
+
+  
